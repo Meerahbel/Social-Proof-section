@@ -24,6 +24,7 @@ section {
   background-size: 40% auto, 70% auto;
   background-color: #fff;
   width: 100%;
+  min-height: 100vh;
   padding: 8%;
   display: flex;
   flex-direction: column;
@@ -36,7 +37,7 @@ section {
 }
 
 .text-1 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: hsl(300, 43%, 22%);
   width: 30%;
@@ -79,7 +80,7 @@ section {
 }
 
 .rating-text {
-  font-size: 10px;
+  font-size: 0.7rem;
   color: hsl(300, 43%, 22%);
   font-weight: 700;
 }
@@ -105,6 +106,7 @@ section {
   background-color: hsl(300, 43%, 22%);
   padding: 20px 0;
   width: 100%;
+  height: fit-content;
   border-radius: 5px;
 }
 
@@ -124,17 +126,17 @@ section {
 .review {
   color: #fff;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .verified {
   color: hsl(333, 80%, 67%);
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 .review {
   width: 80%;
-  font-size: 12px;
+  font-size: 0.9rem;
   line-height: 20px;
 }
 
